@@ -13,6 +13,17 @@
         <nav>
             <div class="header_container">
                 <span class="header">Affiliate zone</span>
+                <div class="header_dropdown">
+                    <i onclick="navgation_list()" class="fa fa-sort-desc" aria-hidden="true"></i>
+                    <div class="header_dropdown_container" id="navigation_menuId">
+                        <span>Home</span>
+                        <span>My orders</span>
+                        <span>Invite</span>
+                        <span>Earnings</span>
+                        <span>Settings</span>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
             </div>
             <div class="profile_container">
                 <span>Welcome, User</span>
@@ -35,9 +46,9 @@
             </div>
         </nav>
         <div class="body">
-            <aside>
+            <aside id="navigation_menu" class="hidden">
                 <div class="top_section">
-                    <div class="menu_section">
+                    <div class="menu_section"> 
                         <div class="icon">
                             <i class="fa fa-home" aria-hidden="true"></i>
                         </div>
