@@ -222,6 +222,7 @@ aside{
         display: none;
     }
     .header_dropdown_container{
+        position: relative;
         width:100px;
         display: flex;
         flex-direction: column;
@@ -232,13 +233,21 @@ aside{
         padding: 10px;
         background-color: #ffff;
         border-radius: 5px;
+        
     }
     .header_dropdown_container span{
         margin-bottom: 10px;
         cursor: pointer;
     }
-    .triangle{
-        left:5px;
+    .triangle1{
+        clip-path: polygon(44% 74%, 15% 100%, 75% 100%);
+        background-color: #fff;
+        width:30px;
+        height:30px;
+        box-shadow: #2d2e36;
+        position: absolute;
+        top:-30px;
+        left:7px;
     }
 
     .header_dropdown_container span:hover{
